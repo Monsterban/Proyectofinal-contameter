@@ -10,14 +10,16 @@ import kotlinx.coroutines.launch
 import model.ApiFactoryService
 import model.EmissionFactor
 import model.EmissionFactorRequest
+import model.EmissionFactorRequestV
 import model.Parameters
+import model.parametersV
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.RequestBody
 import okhttp3.RequestBody.Companion.toRequestBody
 import retrofit2.HttpException
 import java.io.IOException
 
- class MainViewModel : ViewModel() {
+class MainViewModel : ViewModel() {
 
      companion object {
          private var instance: MainViewModel? = null
@@ -79,6 +81,28 @@ import java.io.IOException
          )
 
          val requestBody = Gson().toJson(emissionFactorRequest).toRequestBody("application/json".toMediaTypeOrNull())
+
+         calcularEmisiones(requestBody)
+
+         // Mostrar un mensaje de confirmación
+         //Toast.makeText(this, "123Solicitud de alimentos enviada correctamente", Toast.LENGTH_SHORT).show()
+     }
+
+
+     fun RecibirSolicitudVehiculos(activityId: String , distance : Int) {
+
+         val emissionFactorRequestV = EmissionFactorRequestV(
+             emission_factor = EmissionFactor(
+                 activity_id = activityId,
+                 data_version = "^13"
+             ),
+             parametersV = parametersV(
+                 distance = distance.toDouble(),
+                 distance_unit = "eur"
+             )
+         )
+
+         val requestBody = Gson().toJson(emissionFactorRequestV).toRequestBody("application/json".toMediaTypeOrNull())
 
          calcularEmisiones(requestBody)
 
