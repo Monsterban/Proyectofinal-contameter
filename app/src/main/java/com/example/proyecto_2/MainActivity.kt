@@ -1,5 +1,6 @@
 package com.example.proyecto_2
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -13,8 +14,10 @@ class MainActivity : AppCompatActivity(){
     private lateinit var btnLogin: Button
     private lateinit var txt_user: EditText
     private lateinit var txt_password: EditText
+    private lateinit var btnRegistrar: Button
 
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -23,6 +26,7 @@ class MainActivity : AppCompatActivity(){
         btnLogin = findViewById(R.id.btn_Login)
         txt_user = findViewById(R.id.text_usuario)
         txt_password = findViewById(R.id.text_password)
+        btnRegistrar = findViewById(R.id.btn_Registrar)
 
         btnLogin.setOnClickListener{
 
@@ -38,8 +42,19 @@ class MainActivity : AppCompatActivity(){
 
         }
 
+        btnRegistrar.setOnClickListener{
+
+            PasarRegistro()
+        }
 
 
+
+    }
+
+
+    private fun PasarRegistro() {
+        val intent = Intent(this, Registro::class.java)
+        startActivity(intent)
     }
 
 }
