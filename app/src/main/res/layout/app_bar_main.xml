@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:onClick="PasarAlimento"
-        android:text="agregar Alimento"
+        android:text="@string/agregar_alimento_bar"
         app:layout_constraintEnd_toStartOf="@+id/btn_agregarV"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_cantidad" />
@@ -35,7 +35,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="160dp"
         android:layout_marginTop="24dp"
-        android:text="graficar"
+        android:text="@string/graficar_bar"
         app:layout_anchorGravity="top|center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/graphpie" />
@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="56dp"
-        android:text="agregar viaje"
+        android:text="@string/agregar_viaje_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_cantidad" />
 

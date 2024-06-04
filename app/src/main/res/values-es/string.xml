@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Perfil">Perfil</string>
+    <string name="Cerrar_sesion_perfil">Cerrar sesión</string>
+    <string name="emision_1_perfil">Emision 1</string>
+    <string name="Usuario_main">Usuario:</string>
+    <string name="contraseña_main">Contraseña:</string>
+    <string name="iniciar_sesion_main">Iniciar sesion</string>
+    <string name="no_cuenta_main">¿Aun no tienes cuenta? Registrate</string>
+    <string name="graficar_bar">Graficar</string>
+    <string name="agregar_alimento_bar">Agregar alimento</string>
+    <string name="agregar_viaje_bar">Agregar viaje</string>
+    <string name="cancelar_food">Cancelar</string>
+    <string name="guardar_food">Guardar</string>
+    <string name="consumo_alimentos_food">Consumo de alimentos </string>
+    <string name="opciones_food">¿Cual de las siguientes opcione describe tu consumo de comida en el dia?</string>
+    <string name="Tiempo_viaje_journey">Tiempo de viaje</string>
+    <string name="cuanto_viajaste_journey">¿Cuanto viajaste hoy?</string>
+    <string name="como_viajaste_journey">¿Cuanto viajaste?</string>
+    <string name="seleccionar_fecha_journey">SELECCIONAR FECHA</string>
+    <string name="seleccionar_tiempo_journey">SELECCIONAR TIEMPO</string>
+    <string name="detalles_journey">Detalles</string>
+    <string name="tipo_vehiculo_journey">TIPO VEHICULO</string>
+    <string name="tipo_combustible_journey">TIPO COMBUSTIBLE</string>
+    <string name="cancelar_journey">Cancelar</string>
+    <string name="guardar_journey">Guardar</string>
+    <string name="huella_cabeza">Huella</string>
+    <string name="ingresar_nombre_registro">Ingrese sus nombres:</string>
+    <string name="ingresar_apellido_registro">Ingrese sus apellidos:</string>
+    <string name="ingresar_correo_registro">Ingrese su correo electronico:</string>
+    <string name="ingresar_contraseña_registro">Ingrese su contraseña:</string>
+    <string name="confirme_contraseña_registro">Confirme su contraseña:</string>
+    <string name="no_cuenta_registro">¿Ya tienes cuenta? Inicia Sesion</string>
+    <string name="registro">Registro</string>
+    <string name="Registrarse_registro">Registrarse</string>
+</resources>

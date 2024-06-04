@@ -1,6 +1,39 @@
 <resources>
-    <string name="app_name">Proyecto_2</string>
+    <string name="app_name" translatable="false">Proyecto_2</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="navigation_drawer_open">Open</string>
-    <string name="navigation_drawer_close">Close</string>
+    <string name="navigation_drawer_open" translatable="false">Open</string>
+    <string name="navigation_drawer_close" translatable="false">Open</string>
+        <string name="Perfil">Profile</string>
+        <string name="Cerrar_sesion_perfil">Log out</string>
+        <string name="emision_1_perfil">Emission 1</string>
+        <string name="Usuario_main">Username:</string>
+        <string name="contraseña_main">Password:</string>
+        <string name="iniciar_sesion_main">Log in</string>
+        <string name="no_cuenta_main">Dont have an account yet? Sign up</string>
+        <string name="graficar_bar">Graph</string>
+        <string name="agregar_alimento_bar">Add food</string>
+        <string name="agregar_viaje_bar">Add trip</string>
+        <string name="cancelar_food">Cancel</string>
+        <string name="guardar_food">Save</string>
+        <string name="consumo_alimentos_food">Food consumption</string>
+        <string name="opciones_food">Which of the following options describes your food consumption today?</string>
+        <string name="Tiempo_viaje_journey">Travel time</string>
+        <string name="cuanto_viajaste_journey">How much did you travel today?</string>
+        <string name="como_viajaste_journey">How did you travel?</string>
+        <string name="seleccionar_fecha_journey">SELECT DATE</string>
+        <string name="seleccionar_tiempo_journey">SELECT TIME</string>
+        <string name="detalles_journey">Details</string>
+        <string name="tipo_vehiculo_journey">VEHICLE TYPE</string>
+        <string name="tipo_combustible_journey">FUEL TYPE</string>
+        <string name="cancelar_journey">Cancel</string>
+        <string name="guardar_journey">Save</string>
+        <string name="huella_cabeza">Footprint</string>
+        <string name="ingresar_nombre_registro">Enter your first name:</string>
+        <string name="ingresar_apellido_registro">Enter your last name:</string>
+        <string name="ingresar_correo_registro">Enter your email:</string>
+        <string name="ingresar_contraseña_registro">Enter your password:</string>
+        <string name="confirme_contraseña_registro">Confirm your password:</string>
+        <string name="no_cuenta_registro">Already have an account? Log in</string>
+        <string name="registro">Sign up</string>
+        <string name="Registrarse_registro">Register</string>
 </resources>
