@@ -6,6 +6,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".PromedioActivity">
 
+    <Button
+        android:id="@+id/btn_agregarA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:onClick="PasarAlimento"
+        android:text="agregar Alimento"
+        app:layout_constraintEnd_toStartOf="@+id/btn_agregarV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cantidad" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_main"
         android:layout_width="match_parent"
@@ -29,16 +40,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/graphpie" />
 
-    <com.echo.holographlibrary.PieGraph
-        android:id="@+id/graphpie"
-        android:layout_width="match_parent"
-        android:layout_height="288dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="248dp"
-        android:background="#DF4A4A"
-        app:layout_anchorGravity="center"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar_main" />
+    <com.ekn.gruzer.gaugelibrary.ArcGauge
+        android:id="@+id/arcGauge"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/txt_concepto"
@@ -57,19 +67,20 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="36dp"
+        android:onClick="PasarActividadDetalle"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_concepto" />
 
     <Button
-        android:id="@+id/btn_agregar"
+        android:id="@+id/btn_agregarV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="20dp"
-        android:text="agregar"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="56dp"
+        android:text="agregar viaje"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_cantidad" />
 
 

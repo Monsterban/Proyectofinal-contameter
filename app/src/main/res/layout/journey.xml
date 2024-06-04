@@ -130,7 +130,7 @@
         </HorizontalScrollView>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonViaje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -145,7 +145,7 @@
             app:layout_constraintVertical_bias="0.067" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonvehiculo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -160,7 +160,7 @@
             app:layout_constraintVertical_bias="0.172" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonCombustible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -171,7 +171,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/buttonvehiculo"
             app:layout_constraintVertical_bias="1.0" />
 
         <Button
@@ -201,13 +201,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.048"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/tiempo"
             app:layout_constraintVertical_bias="1.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btn_cancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"

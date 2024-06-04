@@ -39,7 +39,10 @@ android {
 }
 
 dependencies {
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
+    implementation ("com.github.Gruzer:simple-gauge-android:0.3.1")
     implementation("org.quanqi:android-holo-graph:0.1.0")
     implementation("androidx.drawerlayout:drawerlayout:1.2.0")
     implementation("androidx.coordinatorlayout:coordinatorlayout:1.2.0")

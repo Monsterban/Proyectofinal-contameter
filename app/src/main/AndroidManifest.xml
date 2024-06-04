@@ -15,6 +15,7 @@
         <activity
             android:name=".PromedioActivity"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -24,6 +25,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Alimentos"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".Viaje"
+            android:exported="false" />
+
+        <activity
+            android:name=".Cuenta"
+            android:exported="false" />
+
     </application>
 
 </manifest>
